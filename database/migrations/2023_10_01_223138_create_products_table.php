@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('price');
             $table->string('phone');
             $table->text('address');
-            $table->$table->timestamps();
+            $table->timestamps();
         });
     }
 
